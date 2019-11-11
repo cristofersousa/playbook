@@ -1,0 +1,31 @@
+{
+  "name": "playbook-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cristofersousa/playbook.git"
+  },
+  "author": "cristofersousa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cristofersousa/playbook/issues"
+  },
+  "homepage": "https://github.com/cristofersousa/playbook#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.7.9",
+    "mongoose-paginate": "^5.0.3",
+    "require-dir": "^1.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
+}
